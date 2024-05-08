@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Formulário</title>
 </head>
 <body>
     
    <div>
-    <h1>Trabalhando com Formulario</h1>
+    <h1>Trabalhando com Formulário</h1>
     <p>Complete com as informações pedidas abaixo</p>
    </div>
    <br>
@@ -55,10 +55,30 @@
         <div>
             <label>Horário disponivel</label>
             <section id="Horário disponivel">
-                
+                <option selected disabled value="">Selecione</option>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+                <option>Dois Horários</option>
             </section>
         </div>
-   
+        
+        <fieldset>
+            <div>
+                <label>Selecione as tecnologias que você tem experiencia</label>
+                <input type="checkbox" id="tecnologia1" name="tecnologia1" value="Python">
+                <label for="tecnologia1">Python</label>
+                <input type="checkbox" id="tecnologia2" name="tecnologia2" value="HTML">
+                <label for="tecnologia2">HTML</label>
+                <input type="checkbox" id="tecnologia3" name="tecnologia3" value="CSS">
+                <label for="tecnologia3">CSS</label>
+                <input type="checkbox" id="tecnologia4" name="tecnologia4" value="Planilhas">
+                <label for="tecnologia4">Planilhas</label>
+                <input type="checkbox" id="tecnologia5" name="tecnologia5" value="Formulário">
+                <label for="tecnologia5">Formulário</label>
+            </div>
+        </fieldset>
+        
    </form>
 </body>
 </html>
