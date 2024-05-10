@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color:cornflowerblue;
+}
+
+#subtitulo{
+    font-family: 'Times New Roman', Times, serif;
+    color: dodgerblue;
+}
+
+fieldset{
+    margin: 0%;
+}
+
+body{}
