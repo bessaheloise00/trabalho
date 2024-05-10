@@ -3,35 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
+    <title>Trabalhando com Formulário</title>
 </head>
 <body>
     
    <div>
-    <h1>Trabalhando com Formulário</h1>
-    <p>Complete com as informações pedidas abaixo</p>
+    <h1 id="titulo">Cadastro de emprego</h1>
+    <p id="subtitulo">Complete com as informações pedidas abaixo</p>
    </div>
    <br>
 
    <form>
-    <fieldset>
+    <fieldset class="grupo">
         <div>
-            <label>Nome</label>
-            <input type="text" name="nome" id="nome">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required>
         </div>
 
-        <div>
+        <div class="campo">
             <label>Sobrenome</label>
-            <input type="text" name="sobrenome" id="sobrenome">
+            <input type="text" name="sobrenome" id="sobrenome" required>
         </div>
     </fieldset>
         <br>
-        <div>
+        <div class="campo">
             <label>Email</label>
-            <input type="email" nome="email" id="email">
+            <input type="email" nome="email" id="email" required>
         </div>
 
-        <div>
+        <div class="campo">
             <br>
             <label>Qual sua idade?</label>
             <br>
@@ -54,7 +54,7 @@
             </label>
         </div>
             <br>
-        <div>
+        <div class="campo">
             <label>Horários Disponiveis</label>
             <section id="Horários Disponiveis">
                 <option>Manhã</option>
@@ -64,9 +64,9 @@
             </section>
         </div>
         
-        <fieldset>
-            <div>
-                <label>Selecione as tecnologias que você tem experiencia</label>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label> <strong>Selecione as tecnologias que você tem experiencia</strong></label><br><br>
                 <input type="checkbox" id="tecnologia1" name="tecnologia1" value="Python">
                 <label for="tecnologia1">Python</label>
                 <input type="checkbox" id="tecnologia2" name="tecnologia2" value="HTML">
@@ -86,7 +86,7 @@
             <textarea row="6"  style="width: 26cm" id="experiencia" name="expeciencia"></textarea>
         </div>
 
-        <button type="submit">concluido</button>
+        <button  class="botão" type="submit">concluido</button>
 
    </form>
 </body>
