@@ -50,6 +50,7 @@ fieldset.grupo .campo{
 }
 
 .botão{
-    color: chartreuse;
+    background-color: chartreuse;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
