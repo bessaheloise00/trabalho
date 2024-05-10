@@ -25,4 +25,27 @@ body{
     margin-top: 2%;
     justify-content: center;
 }
+ input,select,textarea,button{
+    border-radius: 5px;
+ }
+
+ .campo{
+    margin-bottom: 1cm;
+ }
+.campo label{
+    margin-bottom: 0.2cm;
+    color: black;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1cm;
+}
+
+.campo input[type="text"], .compo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2cm;
+    border: 1px solid cornsilk;
+    box-shadow: 2px 2px 2px;
+}
 
