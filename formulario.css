@@ -34,7 +34,7 @@ body{
  }
 fieldset.grupo .campo{
     float: left;
-    margin-right: 1cm;
+    margin-right: 0.5cm;
 }
 
 .campo input[type="text"], .compo input[type="email"], .campo select, .campo textarea{
