@@ -69,7 +69,7 @@ background: white;
 }
 
 .botão:hover{
-    background: antiquewhite;
+    background: dodgerblue;
     box-shadow:inset 2px 2px 2px black;
     text-shadow: none;
 }
