@@ -55,7 +55,7 @@ padding-right: 1cm;
 }
 
 .campo input:focus, .campo select:focus, .campo textarea:focus{
-background: black;
+background: white;
 }
 
 .botão{
