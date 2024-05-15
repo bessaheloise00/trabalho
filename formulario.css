@@ -40,7 +40,7 @@ body{
 
 fieldset.grupo .campo{
     float: left;
-    margin-right: 1cm;
+    
 }
 
 .campo input[type="text"], .compo input[type="email"], .campo select, .campo textarea{
