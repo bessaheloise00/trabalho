@@ -40,17 +40,33 @@ body{
 
 fieldset.grupo .campo{
     float: left;
-    
+    margin-right: 1cm;
 }
 
 .campo input[type="text"], .compo input[type="email"], .campo select, .campo textarea{
     padding: 0.2cm;
     border: 1px solid cornsilk;
-    box-shadow: 2px 2px 2px;
+    box-shadow: 2px 2px 2px rgb(blue);
+    display: block;
+}
+ 
+.campo select option{
+padding-right: 1cm;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+background: black;
 }
 
 .botão{
-    background-color: chartreuse;
+    font-size: 1.2cm;
+    background: forestgreen;
+    border: 0;
+    color:aliceblue;
+    padding: 0.2cm 0.6cm;
+    margin-bottom: 1cm;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
